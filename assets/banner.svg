@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 140" width="100%" height="140" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="1" y="1" width="848" height="138" rx="8" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1" />
+
+  <!-- Subtle Geometric Accent Lines on Right -->
+  <g stroke="#21262d" stroke-width="1">
+    <line x1="680" y1="20" x2="820" y2="20" />
+    <line x1="680" y1="50" x2="820" y2="50" />
+    <line x1="680" y1="80" x2="820" y2="80" />
+    <line x1="680" y1="110" x2="820" y2="110" />
+    <line x1="715" y1="10" x2="715" y2="120" />
+    <line x1="750" y1="10" x2="750" y2="120" />
+    <line x1="785" y1="10" x2="785" y2="120" />
+  </g>
+  <circle cx="750" cy="50" r="3" fill="#38bdf8" />
+  <circle cx="785" cy="80" r="3" fill="#0284c7" />
+
+  <!-- Left Accent Marker -->
+  <rect x="28" y="28" width="4" height="84" rx="2" fill="url(#cyanLine)" />
+
+  <!-- Title & Typography -->
+  <g transform="translate(44, 0)">
+    <text x="0" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#f0f6fc" letter-spacing="-0.02em">
+      Siddhant Patil
+    </text>
+    <text x="0" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13.5" font-weight="500" fill="#38bdf8">
+      AI &amp; Data Science Student &bull; PICT, Pune
+    </text>
+    <text x="0" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#8b949e">
+      Building practical systems across AI/ML &bull; RAG &bull; Computer Vision &bull; Federated Learning &bull; Cybersecurity
+    </text>
+  </g>
+</svg>
