@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="260" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="bgGlow" cx="80%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.18" />
+      <stop offset="50%" stop-color="#7928ca" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="leftGlow" cx="15%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#0070f3" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Linear Gradients for Accents -->
+    <linearGradient id="cyberGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="50%" stop-color="#00c2ff" />
+      <stop offset="100%" stop-color="#9d4edd" />
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="40%" stop-color="#00f5d4" stop-opacity="0.7" />
+      <stop offset="70%" stop-color="#9d4edd" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Filters for Glow Effect -->
+    <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.85); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(260px); }
+    }
+    .status-dot {
+      animation: pulseDot 2s ease-in-out infinite;
+      transform-origin: 58px 46px;
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+    .mono-text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+  </style>
+
+  <!-- Container Box with Rounded Edges -->
+  <rect x="2" y="2" width="896" height="256" rx="16" fill="url(#cardGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  
+  <!-- Subtle Glow Backdrops -->
+  <rect x="2" y="2" width="896" height="256" rx="16" fill="url(#bgGlow)" />
+  <rect x="2" y="2" width="896" height="256" rx="16" fill="url(#leftGlow)" />
+
+  <!-- Abstract Architectural Grid / Constellation Nodes -->
+  <g stroke="#334155" stroke-opacity="0.3" stroke-width="1">
+    <line x1="600" y1="30" x2="840" y2="70" />
+    <line x1="840" y1="70" x2="780" y2="150" />
+    <line x1="780" y1="150" x2="860" y2="210" />
+    <line x1="600" y1="30" x2="680" y2="120" />
+    <line x1="680" y1="120" x2="780" y2="150" />
+    <line x1="680" y1="120" x2="630" y2="200" />
+    <line x1="630" y1="200" x2="740" y2="225" />
+  </g>
+
+  <!-- Node Dots with Accents -->
+  <circle cx="600" cy="30" r="3.5" fill="#00f5d4" />
+  <circle cx="840" cy="70" r="4" fill="#00c2ff" />
+  <circle cx="780" cy="150" r="4.5" fill="#9d4edd" />
+  <circle cx="860" cy="210" r="3.5" fill="#00f5d4" />
+  <circle cx="680" cy="120" r="4" fill="#00c2ff" />
+  <circle cx="630" cy="200" r="3" fill="#9d4edd" />
+  <circle cx="740" cy="225" r="3.5" fill="#00f5d4" />
+
+  <!-- Status Pill Header -->
+  <g transform="translate(44, 32)">
+    <rect x="0" y="0" width="310" height="28" rx="14" fill="#031628" stroke="#00f5d4" stroke-opacity="0.4" stroke-width="1" />
+    <circle class="status-dot" cx="14" cy="14" r="4.5" fill="#00f5d4" />
+    <text class="mono-text" x="28" y="18" fill="#a7f3d0" font-size="11" font-weight="600" letter-spacing="0.08em">SYSTEMS &amp; AI ARCHITECT</text>
+  </g>
+
+  <!-- Main Headline / Name -->
+  <text class="title-text" x="44" y="112" fill="url(#cyberGradient)" font-size="44" font-weight="800">
+    Siddhant Patil
+  </text>
+
+  <!-- High-Impact Value Proposition -->
+  <text class="mono-text" x="46" y="148" fill="#e2e8f0" font-size="16" font-weight="500">
+    AI Systems <tspan fill="#00f5d4">•</tspan> Agentic RAG <tspan fill="#00f5d4">•</tspan> Privacy-Preserving ML <tspan fill="#00f5d4">•</tspan> Passive Forensics
+  </text>
+
+  <text class="mono-text" x="46" y="174" fill="#94a3b8" font-size="13">
+    Engineering production-grade intelligent systems for high-stakes healthcare, enterprise &amp; security domains.
+  </text>
+
+  <!-- Capability Badges inside Banner -->
+  <g transform="translate(46, 202)">
+    <!-- Badge 1: Samsung Solve for Tomorrow RC1 -->
+    <rect x="0" y="0" width="220" height="26" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+    <circle cx="12" cy="13" r="3" fill="#00f5d4" />
+    <text class="mono-text" x="24" y="17" fill="#cbd5e1" font-size="11" font-weight="500">Samsung Solve For Tomorrow</text>
+
+    <!-- Badge 2: Differential Privacy & BraTS -->
+    <g transform="translate(232, 0)">
+      <rect x="0" y="0" width="200" height="26" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+      <circle cx="12" cy="13" r="3" fill="#00c2ff" />
+      <text class="mono-text" x="24" y="17" fill="#cbd5e1" font-size="11" font-weight="500">BraTS-GLI &amp; Rényi DP</text>
+    </g>
+
+    <!-- Badge 3: Smart India Hackathon -->
+    <g transform="translate(444, 0)">
+      <rect x="0" y="0" width="185" height="26" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+      <circle cx="12" cy="13" r="3" fill="#9d4edd" />
+      <text class="mono-text" x="24" y="17" fill="#cbd5e1" font-size="11" font-weight="500">SIH 2026 Finalist (NTRO)</text>
+    </g>
+  </g>
+</svg>
