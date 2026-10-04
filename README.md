@@ -4,21 +4,33 @@
   <img src="assets/banner.svg" alt="Siddhant Patil — AI & Data Science @ PICT '28 | CGPA 8.99" width="100%" />
 </a>
 
+<br>
+
 <p align="center">
-  Building practical AI/ML, computer vision, RAG, cybersecurity, and intelligent software systems.
+  <font color="#00d2ff"><strong>Building practical AI/ML, computer vision, RAG, cybersecurity, and intelligent software systems.</strong></font>
 </p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Siddhant_Patil-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siddhant-patil-50396532a/)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-Sidd927-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sidd927)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-siddhantpatil.hak%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:siddhantpatil.hak@gmail.com)
+<p align="center">
+  <a href="https://www.linkedin.com/in/siddhant-patil-50396532a/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Sidd927">
+    <img src="https://img.shields.io/badge/GitHub-View-181717?style=for-the-badge&logo=github&logoColor=white" height="28" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="mailto:siddhantpatil.hak@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Email" />
+  </a>
+</p>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b2a8f,100:147eea&height=45&section=header&text=About&fontSize=22&fontColor=ffffff" width="100%" alt="About" />
 
 </div>
 
----
-
-## About
+<br>
 
 I am an Artificial Intelligence & Data Science undergraduate at Pune Institute of Computer Technology (PICT), Pune (Class of 2028). My work focuses on building practical, testable systems across machine learning, multi-modal retrieval-augmented generation (RAG), computer vision, privacy-preserving federated learning, and passive network security analysis.
 
@@ -26,22 +38,45 @@ I prioritize engineering depth, mathematically grounded algorithms, and determin
 
 Alongside technical work, I serve as Head of Public Relations at the Startup & Innovation Cell (SIC), PICT, helping connect student founders, coordinate technical sessions, and cultivate the campus entrepreneurship ecosystem.
 
----
+<br>
 
-## Achievements
+<div align="center">
 
-| Area / Event | Details |
-| :--- | :--- |
-| **Smart India Hackathon (SIH)** | Qualified for Smart India Hackathon twice through college internal selection — in 2nd year and 3rd year. |
-| **SIH 2026 (NTRO Problem Statement)** | Developed **SecureMailScope** for Problem Statement SIH26159 on passive cryptographic security posture assessment of email transport protocols. |
-| **Samsung Solve for Tomorrow** | Co-developed **MEMORA** (Release Candidate 1), an offline edge cognitive companion architecture for Alzheimer's routine assistance. |
-| **Academic Standing** | Maintaining an **8.99 CGPA** in B.E. Artificial Intelligence & Data Science at Pune Institute of Computer Technology (PICT). |
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b2a8f,100:147eea&height=45&section=header&text=Achievements&fontSize=22&fontColor=ffffff" width="100%" alt="Achievements" />
 
----
+<br><br>
 
-## Tech Stack
+<table width="100%">
+<tr>
+<th align="center">Area / Event</th>
+<th align="left">Details</th>
+</tr>
+<tr>
+<td align="center"><strong>Smart India Hackathon (SIH)</strong></td>
+<td>Qualified for Smart India Hackathon twice through college internal selection — in 2nd year and 3rd year.</td>
+</tr>
+<tr>
+<td align="center"><strong>SIH 2026 (NTRO Problem Statement)</strong></td>
+<td>Developed <strong>SecureMailScope</strong> for Problem Statement SIH26159 on passive cryptographic security posture assessment of email transport protocols.</td>
+</tr>
+<tr>
+<td align="center"><strong>Samsung Solve for Tomorrow</strong></td>
+<td>Co-developed <strong>MEMORA</strong> (Release Candidate 1), an offline edge cognitive companion architecture for Alzheimer's routine assistance.</td>
+</tr>
+<tr>
+<td align="center"><strong>Academic Standing</strong></td>
+<td>Maintaining an <strong>8.99 CGPA</strong> in B.E. Artificial Intelligence &amp; Data Science at Pune Institute of Computer Technology (PICT).</td>
+</tr>
+</table>
 
-### AI / Machine Learning
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b2a8f,100:147eea&height=45&section=header&text=Tech%20Stack&fontSize=22&fontColor=ffffff" width="100%" alt="Tech Stack" />
+
+<br><br>
+
+<p align="center"><strong>AI / Machine Learning</strong></p>
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![MONAI](https://img.shields.io/badge/MONAI-0A5C36?style=flat-square&logoColor=white)
@@ -49,132 +84,156 @@ Alongside technical work, I serve as Head of Public Relations at the Startup & I
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logoColor=black)
 
-### Generative AI & RAG
+<br>
+
+<p align="center"><strong>Generative AI &amp; RAG</strong></p>
+
 ![LangGraph](https://img.shields.io/badge/LangGraph-FF6F00?style=flat-square&logo=langchain&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC2626?style=flat-square&logo=qdrant&logoColor=white)
-![Embeddings](https://img.shields.io/badge/Sentence--Transformers-7928CA?style=flat-square&logoColor=white)
+![Sentence-Transformers](https://img.shields.io/badge/Sentence--Transformers-7928CA?style=flat-square&logoColor=white)
 ![Self-RAG](https://img.shields.io/badge/Self--RAG-0284C7?style=flat-square&logoColor=white)
 
-### Backend & Systems
+<br>
+
+<p align="center"><strong>Backend &amp; Systems</strong></p>
+
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-00599C?style=flat-square&logoColor=white)
 
-### Frontend & UI
+<br>
+
+<p align="center"><strong>Frontend &amp; UI</strong></p>
+
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-### Databases & Storage
+<br>
+
+<p align="center"><strong>Databases &amp; Storage</strong></p>
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC2626?style=flat-square&logo=qdrant&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-### Security & Analysis
+<br>
+
+<p align="center"><strong>Security &amp; Analysis</strong></p>
+
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![tshark](https://img.shields.io/badge/tshark-00599C?style=flat-square&logoColor=white)
-![Scapy](https://img.shields.io/badge/Scapy-EC5923?style=flat-square&logoColor=white)
-![PCAP Analysis](https://img.shields.io/badge/PCAP_Forensics-4EAA25?style=flat-square&logoColor=white)
+![tshark](https://img.shields.io/badge/tshark-00599C?style=flat-square&logo=wireshark&logoColor=white)
+![Scapy](https://img.shields.io/badge/Scapy-EC5923?style=flat-square&logo=white)
+![PCAP Forensics](https://img.shields.io/badge/PCAP_Forensics-4EAA25?style=flat-square&logoColor=white)
 
----
+<br><br>
 
-## Featured Projects
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b2a8f,100:147eea&height=45&section=header&text=Featured%20Projects&fontSize=22&fontColor=ffffff" width="100%" alt="Featured Projects" />
 
-| Project | Description | Stack | Links |
-| :--- | :--- | :--- | :--- |
-| **[FedMed](#fedmed)** | Privacy-preserving federated 3D brain tumor MRI segmentation platform using MONAI and Rényi DP. | `PyTorch` · `MONAI` · `FastAPI` · `React` | [Repository](https://github.com/Sidd927/FedMed) |
-| **[SecureMailScope](#securemailscope)** | Passive PCAP security posture triage for SMTP/IMAP/POP3 email transport encryption (SIH / NTRO). | `Python` · `tshark` · `Scapy` · `React` | [Repository](https://github.com/Sidd927/SecureMailScope) &middot; [Demo](https://secure-mail-scope-psi.vercel.app) |
-| **ResumeIQ** | Explainable candidate-job match engine with 4 deterministic scoring signals and 96% backend test coverage. | `FastAPI` · `React` · `TypeScript` · `PostgreSQL` | [Repository](https://github.com/Sidd927/ResumeIQ) &middot; [Demo](https://resume-iq-beta-henna.vercel.app/) |
-| **MEMORA** | Deterministic offline edge-AI cognitive companion prototype for Alzheimer's ambient memory assistance. | `Python` · `YOLOv8` · `SQLite` · `Edge Runtime` | [Repository](https://github.com/Sidd927/Samsung_Anchor) |
-| **IP-SAKTI Sahayak** | Multilingual source-grounded RAG assistant for Ayurvedic IPR across national and international legal regimes. | `Python` · `FastAPI` · `LangGraph` · `Qdrant` | [Repository](https://github.com/giyu-cmd/sih-2026) |
-| **ALPR Smart Parking** | Real-time vehicle license plate detection, tracking, and parking management pipeline. | `Python` · `YOLOv8` · `SORT` · `EasyOCR` | [Repository](https://github.com/Sidd927/ALPR-Smart-Parking-System) |
-| **OmniBrain** | Multi-modal agentic RAG orchestrator routing across prose documents, charts, and SQL databases. | `LangGraph` · `Qdrant` · `FastAPI` · `PostgreSQL` | *Private Repo* |
+<br><br>
 
----
+<table width="100%">
+<tr>
+<th align="center">Project</th>
+<th align="left">Description</th>
+<th align="center">Stack</th>
+<th align="center">Links</th>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/Sidd927/FedMed"><strong>FedMed</strong></a></td>
+<td>Privacy-preserving federated 3D brain tumor MRI segmentation platform using MONAI and Rényi DP.</td>
+<td align="center"><code>PyTorch</code> · <code>MONAI</code> · <code>FastAPI</code> · <code>React</code></td>
+<td align="center"><a href="https://github.com/Sidd927/FedMed">Repository</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/Sidd927/SecureMailScope"><strong>SecureMailScope</strong></a></td>
+<td>Passive PCAP security posture triage for SMTP/IMAP/POP3 email transport encryption (SIH / NTRO).</td>
+<td align="center"><code>Python</code> · <code>tshark</code> · <code>Scapy</code> · <code>React</code></td>
+<td align="center"><a href="https://github.com/Sidd927/SecureMailScope">Repository</a> · <a href="https://secure-mail-scope-psi.vercel.app">Demo</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/Sidd927/ResumeIQ"><strong>ResumeIQ</strong></a></td>
+<td>Explainable candidate-job match engine with 4 deterministic scoring signals and 96% backend test coverage.</td>
+<td align="center"><code>FastAPI</code> · <code>React</code> · <code>TypeScript</code> · <code>PostgreSQL</code></td>
+<td align="center"><a href="https://github.com/Sidd927/ResumeIQ">Repository</a> · <a href="https://resume-iq-beta-henna.vercel.app/">Demo</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/Sidd927/Samsung_Anchor"><strong>MEMORA</strong></a></td>
+<td>Deterministic offline edge-AI cognitive companion prototype for Alzheimer's ambient memory assistance.</td>
+<td align="center"><code>Python</code> · <code>YOLOv8</code> · <code>SQLite</code> · <code>Edge Runtime</code></td>
+<td align="center"><a href="https://github.com/Sidd927/Samsung_Anchor">Repository</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/giyu-cmd/sih-2026"><strong>IP-SAKTI Sahayak</strong></a></td>
+<td>Multilingual source-grounded RAG assistant for Ayurvedic IPR across national and international legal regimes.</td>
+<td align="center"><code>Python</code> · <code>FastAPI</code> · <code>LangGraph</code> · <code>Qdrant</code></td>
+<td align="center"><a href="https://github.com/giyu-cmd/sih-2026">Repository</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/Sidd927/ALPR-Smart-Parking-System"><strong>ALPR Smart Parking</strong></a></td>
+<td>Real-time vehicle license plate detection, tracking, and parking management pipeline.</td>
+<td align="center"><code>Python</code> · <code>YOLOv8</code> · <code>SORT</code> · <code>EasyOCR</code></td>
+<td align="center"><a href="https://github.com/Sidd927/ALPR-Smart-Parking-System">Repository</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/Sidd927/OmniBrain"><strong>OmniBrain</strong></a></td>
+<td>Multi-modal agentic RAG orchestrator routing queries across prose documents, charts, and SQL databases.</td>
+<td align="center"><code>LangGraph</code> · <code>Qdrant</code> · <code>FastAPI</code> · <code>PostgreSQL</code></td>
+<td align="center"><a href="https://github.com/Sidd927/OmniBrain">Repository</a> <em>(Private)</em></td>
+</tr>
+</table>
 
-## Project Deep Dives
+<br>
 
-### FedMed
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b2a8f,100:147eea&height=45&section=header&text=Experience&fontSize=22&fontColor=ffffff" width="100%" alt="Experience" />
 
-FedMed is a cross-silo federated learning platform engineered for 3D brain tumor MRI segmentation. Rather than centralizing sensitive medical imaging across institutions, each simulated hospital silo trains locally on multi-parametric MRI sequences and transmits model updates to a central aggregation coordinator under provable differential privacy guarantees.
+<br><br>
 
-```mermaid
-flowchart LR
-    subgraph Silos ["Hospital Silos (BraTS-GLI 2024)"]
-        H1["Hospital Alpha"]
-        H2["Hospital Beta"]
-        H3["Hospital Gamma"]
-        H4["Hospital Delta"]
-    end
+<table width="100%">
+<tr>
+<th align="center">Role</th>
+<th align="center">Organization</th>
+<th align="left">Focus &amp; Highlights</th>
+</tr>
+<tr>
+<td align="center"><strong>Head of Public Relations</strong></td>
+<td align="center">Startup &amp; Innovation Cell (SIC), PICT</td>
+<td>Directing student outreach, startup community initiatives, external communications, and campus technical sessions supporting student founders and early-stage ventures.</td>
+</tr>
+</table>
 
-    subgraph LocalTraining ["Local Training & Privacy"]
-        M["MONAI 3D U-Net<br/>(4 MRI Modalities)"]
-        DP["Poisson DP-SGD<br/>Rényi DP Accounting"]
-    end
+<br>
 
-    subgraph Coordinator ["Central Coordinator"]
-        AVG["Weighted FedAvg"]
-        DASH["FastAPI + WebSocket Telemetry<br/>React Multi-Planar Slice Viewer"]
-    end
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b2a8f,100:147eea&height=45&section=header&text=Connect&fontSize=22&fontColor=ffffff" width="100%" alt="Connect" />
 
-    Silos --> M --> DP --> AVG --> DASH
-```
+<br><br>
 
-* **Clinical 3D Segmentation:** Implemented volumetric segmentation using MONAI 3D U-Net architectures trained on the clinical BraTS-GLI 2024 cohort (1,350 subjects) across 4 multi-parametric MRI modalities (T1, T1-contrast, T2, FLAIR).
-* **Decentralized Coordination:** Coordinated federated training across 4 simulated hospital partitions using weighted Federated Averaging (FedAvg), keeping raw MRI volumes strictly within their local boundaries.
-* **Formal Privacy Guarantees:** Integrated sample-level Differential Privacy with Poisson subsampling and analytical Rényi DP accounting ($\varepsilon = 2.8934, \delta = 10^{-5}$).
-* **Telemetry & Visualization:** Built a FastAPI backend with real-time WebSocket telemetry and a React/Vite dashboard featuring an interactive multi-planar MRI slice visualizer.
-* **Verification:** Backed by an automated test suite with 323 passing unit and integration tests.
+<p align="center">
+  <a href="https://www.linkedin.com/in/siddhant-patil-50396532a/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Sidd927">
+    <img src="https://img.shields.io/badge/GitHub-View-181717?style=for-the-badge&logo=github&logoColor=white" height="28" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="mailto:siddhantpatil.hak@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Email" />
+  </a>
+</p>
 
-Repository: [github.com/Sidd927/FedMed](https://github.com/Sidd927/FedMed)
+<p align="center">
+  <em>Open to collaborations, research projects, technical initiatives, and software engineering opportunities.</em>
+</p>
 
----
+<br>
 
-### SecureMailScope
+<sub>Siddhant Patil &middot; 2026</sub>
 
-Developed for Smart India Hackathon 2026 (Problem Statement SIH26159 for the National Technical Research Organisation &ndash; NTRO). SecureMailScope passively inspects captured PCAP network traffic from mail protocols (SMTP, IMAP, POP3) to evaluate transport-layer encryption posture across multiple sessions without active server probing, credentials, or payload decryption.
-
-<div align="center">
-  <img src="assets/securemailscope-preview.png" alt="SecureMailScope Forensic Workbench" width="700" style="border-radius: 6px; border: 1px solid #30363d;" />
-</div>
-
-<br/>
-
-* **Passive Non-Invasive Triage:** Evaluates captured SMTP, IMAP, and POP3 network traffic without connecting to mail servers, requiring credentials, or decrypting message payloads.
-* **Transport Cryptographic Auditing:** Dissects TLS handshake negotiation, cipher suite strengths, forward secrecy (PFS), plaintext exposure, and STARTTLS/STLS downgrade tampering.
-* **RFC 8446 Compliance:** Parses X.509 certificate chains where handshakes expose them in cleartext, correctly treating TLS 1.3 encrypted handshakes as unobservable.
-* **Air-Gapped Portability:** Core packet dissection and posture engine written with pure Python standard library and `tshark` with zero external runtime dependencies for offline or air-gapped forensic environments.
-* **Analyst Workbench:** Features an optional FastAPI persistence service and an interactive analyst dashboard built in React and TypeScript.
-
-Repository: [github.com/Sidd927/SecureMailScope](https://github.com/Sidd927/SecureMailScope) &middot; Live Prototype: [secure-mail-scope-psi.vercel.app](https://secure-mail-scope-psi.vercel.app)
-
----
-
-## Experience
-
-| Role | Organization | Focus & Highlights |
-| :--- | :--- | :--- |
-| **Head of Public Relations** | Startup & Innovation Cell (SIC), PICT | Directing student outreach, startup community initiatives, external communications, and campus technical sessions to support student founders and early-stage ventures. |
-| **Student Engineer** | Pune Institute of Computer Technology (PICT) | B.E. in Artificial Intelligence & Data Science ('28) &middot; CGPA 8.99 &middot; Focus on ML systems, computer vision, and network security. |
-
----
-
-## Connect
-
-* **LinkedIn:** [linkedin.com/in/siddhant-patil-50396532a](https://www.linkedin.com/in/siddhant-patil-50396532a/)
-* **GitHub:** [github.com/Sidd927](https://github.com/Sidd927)
-* **Email:** [siddhantpatil.hak@gmail.com](mailto:siddhantpatil.hak@gmail.com)
-
-Open to collaborations, research projects, technical initiatives, and software engineering opportunities.
-
-<br/>
-
-<div align="center">
-  <sub>Siddhant Patil &middot; 2026</sub>
 </div>
