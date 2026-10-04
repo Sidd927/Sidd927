@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" width="100%" height="190" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220" fill="none">
   <defs>
-    <!-- Smooth Left-to-Right Deep Navy to Electric Blue Gradient -->
+    <!-- Smooth Left-to-Right Deep Navy to Electric Blue Gradient for Fixed Hero Panel -->
     <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#040d21" />
       <stop offset="35%" stop-color="#08216b" />
@@ -8,46 +8,41 @@
       <stop offset="100%" stop-color="#147eea" />
     </linearGradient>
 
-    <!-- Layer 1 Wave Gradient (Deep Navy / Blue) -->
-    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#08216b" stop-opacity="0.35" />
-      <stop offset="50%" stop-color="#0f5fc2" stop-opacity="0.45" />
-      <stop offset="100%" stop-color="#08216b" stop-opacity="0.35" />
+    <!-- Layer 1 Wave Gradient: Deep Navy fading downwards into transparent canvas -->
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#08216b" stop-opacity="0.55" />
+      <stop offset="60%" stop-color="#0f5fc2" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#08216b" stop-opacity="0.0" />
     </linearGradient>
     <linearGradient id="waveLine1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0f5fc2" stop-opacity="0.35" />
-      <stop offset="50%" stop-color="#147eea" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#0f5fc2" stop-opacity="0.35" />
+      <stop offset="0%" stop-color="#08216b" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#0f5fc2" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#08216b" stop-opacity="0.4" />
     </linearGradient>
 
-    <!-- Layer 2 Wave Gradient (Electric Blue) -->
-    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0f5fc2" stop-opacity="0.2" />
-      <stop offset="50%" stop-color="#147eea" stop-opacity="0.32" />
-      <stop offset="100%" stop-color="#0f5fc2" stop-opacity="0.2" />
+    <!-- Layer 2 Wave Gradient: Electric Blue fading downwards into transparent canvas -->
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f5fc2" stop-opacity="0.4" />
+      <stop offset="55%" stop-color="#147eea" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#147eea" stop-opacity="0.0" />
     </linearGradient>
     <linearGradient id="waveLine2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#147eea" stop-opacity="0.4" />
-      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.75" />
-      <stop offset="100%" stop-color="#147eea" stop-opacity="0.4" />
+      <stop offset="0%" stop-color="#0f5fc2" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0f5fc2" stop-opacity="0.5" />
     </linearGradient>
 
-    <!-- Layer 3 Wave Gradient (Cyan-Blue Accent) -->
-    <linearGradient id="waveGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.08" />
-      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.1" />
+    <!-- Layer 3 Wave Gradient: Cyan Accent fading downwards into transparent canvas -->
+    <linearGradient id="waveGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.0" />
     </linearGradient>
     <linearGradient id="waveLine3" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5" />
-      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.5" />
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.6" />
     </linearGradient>
-
-    <!-- Clip path to keep flowing waves inside rounded banner boundary -->
-    <clipPath id="bannerClip">
-      <rect x="0" y="0" width="900" height="190" rx="8" />
-    </clipPath>
   </defs>
 
   <style>
@@ -63,58 +58,58 @@
       0% { transform: translateX(0); }
       100% { transform: translateX(-900px); }
     }
-    .wave-1 {
+    .wave-layer-1 {
       animation: waveFlow1 17s linear infinite;
     }
-    .wave-2 {
+    .wave-layer-2 {
       animation: waveFlow2 13s linear infinite;
     }
-    .wave-3 {
+    .wave-layer-3 {
       animation: waveFlow3 15s linear infinite;
     }
     @media (prefers-reduced-motion: reduce) {
-      .wave-1, .wave-2, .wave-3 {
+      .wave-layer-1, .wave-layer-2, .wave-layer-3 {
         animation: none !important;
         transform: none !important;
       }
     }
   </style>
 
-  <!-- Primary Gradient Background with subtle rounded corners -->
-  <rect x="0" y="0" width="900" height="190" rx="8" fill="url(#heroGrad)" />
-
-  <!-- Multi-layered Flowing Waves clipped to banner boundary -->
-  <g clip-path="url(#bannerClip)">
-    <!-- Layer 1: Deep Navy / Blue (Slow Movement) -->
-    <g class="wave-1">
-      <path d="M 0,163 C 120,173 330,173 450,163 C 570,153 780,153 900,163 C 1020,173 1230,173 1350,163 C 1470,153 1680,153 1800,163 L 1800,190 L 0,190 Z" fill="url(#waveGrad1)" />
-      <path d="M 0,163 C 120,173 330,173 450,163 C 570,153 780,153 900,163 C 1020,173 1230,173 1350,163 C 1470,153 1680,153 1800,163" stroke="url(#waveLine1)" stroke-width="1.0" fill="none" />
+  <!-- Independent Flowing Waves in Lower Transparent Canvas Region (Below Fixed Panel) -->
+  <g class="independent-waves">
+    <!-- Wave 1: Deep Navy / Blue (Slow 17s) -->
+    <g class="wave-layer-1">
+      <path d="M 0,158 C 120,172 330,172 450,158 C 570,144 780,144 900,158 C 1020,172 1230,172 1350,158 C 1470,144 1680,144 1800,158 L 1800,220 L 0,220 Z" fill="url(#waveGrad1)" />
+      <path d="M 0,158 C 120,172 330,172 450,158 C 570,144 780,144 900,158 C 1020,172 1230,172 1350,158 C 1470,144 1680,144 1800,158" stroke="url(#waveLine1)" stroke-width="1.2" fill="none" />
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="17s" repeatCount="indefinite" />
     </g>
 
-    <!-- Layer 2: Electric Blue (Medium Movement) -->
-    <g class="wave-2">
-      <path d="M 0,155 C 75,146 150,146 225,155 C 300,164 375,164 450,155 C 525,146 600,146 675,155 C 750,164 825,164 900,155 C 975,146 1050,146 1125,155 C 1200,164 1275,164 1350,155 C 1425,146 1500,146 1575,155 C 1650,164 1725,164 1800,155 L 1800,190 L 0,190 Z" fill="url(#waveGrad2)" />
-      <path d="M 0,155 C 75,146 150,146 225,155 C 300,164 375,164 450,155 C 525,146 600,146 675,155 C 750,164 825,164 900,155 C 975,146 1050,146 1125,155 C 1200,164 1275,164 1350,155 C 1425,146 1500,146 1575,155 C 1650,164 1725,164 1800,155" stroke="url(#waveLine2)" stroke-width="1.2" fill="none" />
+    <!-- Wave 2: Electric Blue (Medium 13s) -->
+    <g class="wave-layer-2">
+      <path d="M 0,164 C 75,152 150,152 225,164 C 300,176 375,176 450,164 C 525,152 600,152 675,164 C 750,176 825,176 900,164 C 975,152 1050,152 1125,164 C 1200,176 1275,176 1350,164 C 1425,152 1500,152 1575,164 C 1650,176 1725,176 1800,164 L 1800,220 L 0,220 Z" fill="url(#waveGrad2)" />
+      <path d="M 0,164 C 75,152 150,152 225,164 C 300,176 375,176 450,164 C 525,152 600,152 675,164 C 750,176 825,176 900,164 C 975,152 1050,152 1125,164 C 1200,176 1275,176 1350,164 C 1425,152 1500,152 1575,164 C 1650,176 1725,176 1800,164" stroke="url(#waveLine2)" stroke-width="1.4" fill="none" />
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="13s" repeatCount="indefinite" />
     </g>
 
-    <!-- Layer 3: Cyan-Blue Accent (Distinct Ripple Movement) -->
-    <g class="wave-3">
-      <path d="M 0,165 C 130,156 320,156 450,165 C 580,174 770,174 900,165 C 1030,156 1220,156 1350,165 C 1480,174 1670,174 1800,165 L 1800,190 L 0,190 Z" fill="url(#waveGrad3)" />
-      <path d="M 0,165 C 130,156 320,156 450,165 C 580,174 770,174 900,165 C 1030,156 1220,156 1350,165 C 1480,174 1670,174 1800,165" stroke="url(#waveLine3)" stroke-width="1.4" fill="none" />
+    <!-- Wave 3: Cyan Accent (Foreground Ripple 15s) -->
+    <g class="wave-layer-3">
+      <path d="M 0,172 C 130,160 320,160 450,172 C 580,184 770,184 900,172 C 1030,160 1220,160 1350,172 C 1480,184 1670,184 1800,172 L 1800,220 L 0,220 Z" fill="url(#waveGrad3)" />
+      <path d="M 0,172 C 130,160 320,160 450,172 C 580,184 770,184 900,172 C 1030,160 1220,160 1350,172 C 1480,184 1670,184 1800,172" stroke="url(#waveLine3)" stroke-width="1.6" fill="none" />
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="15s" repeatCount="indefinite" />
     </g>
   </g>
 
-  <!-- Centered Identity & Typography (Completely Static) -->
+  <!-- Fixed Blue Hero Rectangle (Bounded, Solid Panel on Top) -->
+  <rect x="0" y="0" width="900" height="148" rx="8" fill="url(#heroGrad)" />
+
+  <!-- Centered Identity & Typography (Completely Static Inside Hero Panel) -->
   <!-- Dominant Name -->
-  <text x="450" y="86" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="0.05em">
+  <text x="450" y="70" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="0.05em">
     SIDDHANT PATIL
   </text>
 
   <!-- Subtitle directly beneath -->
-  <text x="450" y="122" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#d0eaff" letter-spacing="0.04em">
+  <text x="450" y="106" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#d0eaff" letter-spacing="0.04em">
     AI &amp; DATA SCIENCE @ PICT &apos;28 &#160;|&#160; CGPA 8.99
   </text>
 </svg>
