@@ -185,6 +185,14 @@ My work spans machine learning, computer vision, RAG and agentic systems, cybers
 
 <br>
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b2a8f,100:147eea&height=45&section=header&text=Contribution%20Graph&fontSize=22&fontColor=ffffff" width="100%" alt="Contribution Graph" />
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/Sidd927/Sidd927/output/pacman.svg" alt="Animated Pac-Man contribution graph" width="100%" />
+
+<br>
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b2a8f,100:147eea&height=45&section=header&text=Experience&fontSize=22&fontColor=ffffff" width="100%" alt="Experience" />
 
 <br><br>
