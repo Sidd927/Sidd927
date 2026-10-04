@@ -52,12 +52,8 @@ Alongside technical work, I serve as Head of Public Relations at the Startup & I
 <th align="left">Details</th>
 </tr>
 <tr>
-<td align="center"><strong>Smart India Hackathon (SIH)</strong></td>
-<td>Qualified for Smart India Hackathon twice through college internal selection — in 2nd year and 3rd year.</td>
-</tr>
-<tr>
-<td align="center"><strong>SIH 2026 (NTRO Problem Statement)</strong></td>
-<td>Developed <strong>SecureMailScope</strong> for Problem Statement SIH26159 on passive cryptographic security posture assessment of email transport protocols.</td>
+<td align="center"><strong>SIH — Smart India Hackathon</strong></td>
+<td>Qualified for the Smart India Hackathon twice through college selection.</td>
 </tr>
 <tr>
 <td align="center"><strong>Samsung Solve for Tomorrow</strong></td>
@@ -146,34 +142,22 @@ Alongside technical work, I serve as Head of Public Relations at the Startup & I
 <th align="center">Links</th>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/Sidd927/FedMed"><strong>FedMed</strong></a></td>
-<td>Privacy-preserving federated 3D brain tumor MRI segmentation platform using MONAI and Rényi DP.</td>
-<td align="center"><code>PyTorch</code> · <code>MONAI</code> · <code>FastAPI</code> · <code>React</code></td>
-<td align="center"><a href="https://github.com/Sidd927/FedMed">Repository</a></td>
-</tr>
-<tr>
 <td align="center"><a href="https://github.com/Sidd927/SecureMailScope"><strong>SecureMailScope</strong></a></td>
 <td>Passive PCAP security posture triage for SMTP/IMAP/POP3 email transport encryption (SIH / NTRO).</td>
 <td align="center"><code>Python</code> · <code>tshark</code> · <code>Scapy</code> · <code>React</code></td>
 <td align="center"><a href="https://github.com/Sidd927/SecureMailScope">Repository</a> · <a href="https://secure-mail-scope-psi.vercel.app">Demo</a></td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/Sidd927/ResumeIQ"><strong>ResumeIQ</strong></a></td>
-<td>Explainable candidate-job match engine with 4 deterministic scoring signals and 96% backend test coverage.</td>
-<td align="center"><code>FastAPI</code> · <code>React</code> · <code>TypeScript</code> · <code>PostgreSQL</code></td>
-<td align="center"><a href="https://github.com/Sidd927/ResumeIQ">Repository</a> · <a href="https://resume-iq-beta-henna.vercel.app/">Demo</a></td>
-</tr>
-<tr>
-<td align="center"><a href="https://github.com/Sidd927/Samsung_Anchor"><strong>MEMORA</strong></a></td>
-<td>Deterministic offline edge-AI cognitive companion prototype for Alzheimer's ambient memory assistance.</td>
-<td align="center"><code>Python</code> · <code>YOLOv8</code> · <code>SQLite</code> · <code>Edge Runtime</code></td>
-<td align="center"><a href="https://github.com/Sidd927/Samsung_Anchor">Repository</a></td>
-</tr>
-<tr>
-<td align="center"><a href="https://github.com/giyu-cmd/sih-2026"><strong>IP-SAKTI Sahayak</strong></a></td>
+<td align="center"><a href="https://github.com/Sidd927/IP_SaktiAnd"><strong>IP-SAKTI Sahayak</strong></a></td>
 <td>Multilingual source-grounded RAG assistant for Ayurvedic IPR across national and international legal regimes.</td>
 <td align="center"><code>Python</code> · <code>FastAPI</code> · <code>LangGraph</code> · <code>Qdrant</code></td>
-<td align="center"><a href="https://github.com/giyu-cmd/sih-2026">Repository</a></td>
+<td align="center"><a href="https://github.com/Sidd927/IP_SaktiAnd">Repository</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/Sidd927/FedMed"><strong>FedMed</strong></a></td>
+<td>Privacy-preserving federated 3D brain tumor MRI segmentation platform using MONAI and Rényi DP.</td>
+<td align="center"><code>PyTorch</code> · <code>MONAI</code> · <code>FastAPI</code> · <code>React</code></td>
+<td align="center"><a href="https://github.com/Sidd927/FedMed">Repository</a></td>
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/Sidd927/ALPR-Smart-Parking-System"><strong>ALPR Smart Parking</strong></a></td>
@@ -186,6 +170,18 @@ Alongside technical work, I serve as Head of Public Relations at the Startup & I
 <td>Multi-modal agentic RAG orchestrator routing queries across prose documents, charts, and SQL databases.</td>
 <td align="center"><code>LangGraph</code> · <code>Qdrant</code> · <code>FastAPI</code> · <code>PostgreSQL</code></td>
 <td align="center"><a href="https://github.com/Sidd927/OmniBrain">Repository</a> <em>(Private)</em></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/Sidd927/ResumeIQ"><strong>ResumeIQ</strong></a></td>
+<td>Explainable candidate-job match engine with 4 deterministic scoring signals and 96% backend test coverage.</td>
+<td align="center"><code>FastAPI</code> · <code>React</code> · <code>TypeScript</code> · <code>PostgreSQL</code></td>
+<td align="center"><a href="https://github.com/Sidd927/ResumeIQ">Repository</a> · <a href="https://resume-iq-beta-henna.vercel.app/">Demo</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/Sidd927/Samsung_Anchor"><strong>MEMORA</strong></a></td>
+<td>Deterministic offline edge-AI cognitive companion prototype for Alzheimer's ambient memory assistance.</td>
+<td align="center"><code>Python</code> · <code>YOLOv8</code> · <code>SQLite</code> · <code>Edge Runtime</code></td>
+<td align="center"><a href="https://github.com/Sidd927/Samsung_Anchor">Repository</a></td>
 </tr>
 </table>
 
