@@ -32,11 +32,9 @@
 
 <br>
 
-I am an Artificial Intelligence & Data Science undergraduate at Pune Institute of Computer Technology (PICT), Pune (Class of 2028). My work focuses on building practical, testable systems across machine learning, multi-modal retrieval-augmented generation (RAG), computer vision, privacy-preserving federated learning, and passive network security analysis.
+I am a third-year B.Tech student in Artificial Intelligence & Data Science at Pune Institute of Computer Technology (PICT), with an 8.99 CGPA. I enjoy turning ideas into practical software systems and exploring how AI can be applied to concrete engineering problems across different domains.
 
-I prioritize engineering depth, mathematically grounded algorithms, and deterministic guarantees over marketing veneer. Whether formulating Rényi differential privacy accounting for clinical 3D medical volumes or reverse-engineering encrypted email transport handshakes from raw PCAP captures, I focus on building reliable software from first principles with automated test coverage.
-
-Alongside technical work, I serve as Head of Public Relations at the Startup & Innovation Cell (SIC), PICT, helping connect student founders, coordinate technical sessions, and cultivate the campus entrepreneurship ecosystem.
+My work spans machine learning, computer vision, RAG and agentic systems, cybersecurity, and privacy-aware distributed AI. Rather than stopping at isolated models, I focus on building end-to-end systems—connecting data pipelines, models, backend services, interfaces, and testing into usable applications. From encrypted-email forensics and legal RAG to federated medical AI and edge vision, I’m most interested in engineering AI systems that are technically grounded, reliable, and useful in practice. Alongside engineering, I contribute to PICT’s student innovation ecosystem as Head of Public Relations at the Startup & Innovation Cell (SIC).
 
 <br>
 
@@ -151,7 +149,7 @@ Alongside technical work, I serve as Head of Public Relations at the Startup & I
 <td align="center"><a href="https://github.com/Sidd927/IP_SaktiAnd"><strong>IP-SAKTI Sahayak</strong></a></td>
 <td>Multilingual source-grounded RAG assistant for Ayurvedic IPR across national and international legal regimes.</td>
 <td align="center"><code>Python</code> · <code>FastAPI</code> · <code>LangGraph</code> · <code>Qdrant</code></td>
-<td align="center"><a href="https://github.com/Sidd927/IP_SaktiAnd">Repository</a></td>
+<td align="center"><a href="https://github.com/Sidd927/IP_SaktiAnd">Repository</a> · <a href="https://ayur-x.vercel.app/">Demo</a></td>
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/Sidd927/FedMed"><strong>FedMed</strong></a></td>
