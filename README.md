@@ -65,7 +65,7 @@ Alongside technical work, I serve as Head of Public Relations at the Startup & I
 </tr>
 <tr>
 <td align="center"><strong>Academic Standing</strong></td>
-<td>Maintaining an <strong>8.99 CGPA</strong> in B.E. Artificial Intelligence &amp; Data Science at Pune Institute of Computer Technology (PICT).</td>
+<td>B.Tech in AI &amp; Data Science @ PICT | CGPA: 8.99</td>
 </tr>
 </table>
 
